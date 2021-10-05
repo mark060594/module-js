@@ -25,3 +25,5 @@ if( cali > 0 && cali < 100){
 
 
 } else console.log('El numero que ingresaste es incorrecto');
+
+
