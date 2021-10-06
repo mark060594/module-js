@@ -3,28 +3,21 @@ Ejercicio 3:
     Solicitar el nombre completo a un usuario e indicarle cuantas vocales tiene.
 */
 
-/*
-Ejercicio 4:
-    Del texto: 
-    "Cada estudiante tiene su ritmo, cada estudiante tiene su talento, y cada estudiante complementa 
-    al estudiante que tiene a su lado"
-    - Contar cuántas veces se usa la palabra "estudiante" y reemplazar todas las coincidencias 
-        por la palabra "Koder", 
-    - y mostrar el mensaje de nuevo al usuario
-*/
-
-/*
-Ejercicio 5:
-    Dado un string de dos palabras realizar una función que devuelva la palabra más larga
-    input: 'Programación Javascript'
-    Output: 'Programación'
-*/
 
 
+let name = prompt('Ingresa tu nombre completo').toLowerCase();
+let array = name.split('');
+let contador=0;
 
-let nombre, result;
 
-nombre = window.prompt('Ingresa tu nombre Completo');
+for(let i=0;i<array.length;i++){
+    console.log(array[i]);
+    if(array[i]==='a' || array[i]==='e' || array[i]==='i' || array[i]==='o' || array[i]==='u'){
+        contador++;
+    }
+}
+
+console.log(contador);
 
 
-result()
+
