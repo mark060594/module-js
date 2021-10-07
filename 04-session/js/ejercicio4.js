@@ -14,8 +14,12 @@ getNumber = () => {
 }
 
 
-const patronPrint = function(num) {
+/* const patronPrint = function(num) {
 
-        for(i = 0 ; i <= num ; i++)
+        let = 
+        for(i = 0 ; i <= num ; i++) {
+
+            console.log('*')
+        }
     
-}
+} */

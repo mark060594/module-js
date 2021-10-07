@@ -9,10 +9,7 @@
 
 
 
-/*
-Ejercicio 4:
-Imprimir en consola el siguiente patrón
-*/
+
 
 
 getNumber = () => {
