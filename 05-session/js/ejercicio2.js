@@ -23,6 +23,7 @@ const showNames = function(array) {
 
     console.log(array);
     for(i = 0 ; i < array.length ; i++){
+        
         console.log(`Nombre ${i+1}: ${array[i]}`);
     }
 }
